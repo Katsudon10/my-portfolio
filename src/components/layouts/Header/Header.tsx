@@ -59,17 +59,17 @@ const Header = () => {
 
             <NavbarContent justify="end" className="flex">
                 <NavbarItem>
-                    <Link href="https://github.com/Katsudon10" color="foreground">
+                    <Link href="https://github.com/Katsudon10" color="foreground" isExternal>
                         <SiGithub size={20} color="foreground"/>
                     </Link>
                 </NavbarItem>
                 <NavbarItem>
-                    <Link href="https://www.linkedin.com/in/kaitoinoue/" color="foreground">
+                    <Link href="https://www.linkedin.com/in/kaitoinoue/" color="foreground" isExternal>
                         <SiLinkedin size={20} color="foreground"/>
                     </Link>
                 </NavbarItem>
                 <NavbarItem>
-                    <Link href="https://www.wantedly.com/id/Kaito_Inoue10" color="foreground">
+                    <Link href="https://www.wantedly.com/id/Kaito_Inoue10" color="foreground" isExternal>
                         <SiWantedly size={20} color="foreground"/>
                     </Link>
                 </NavbarItem>
