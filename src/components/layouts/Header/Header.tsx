@@ -15,6 +15,8 @@ import { SiGithub } from "react-icons/si";
 import { SiLinkedin } from "react-icons/si";
 import { SiWantedly } from "react-icons/si";
 
+import Links from "./Links";
+
 const Header = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -55,6 +57,9 @@ const Header = () => {
                         Contact
                     </Link>
                 </NavbarItem>
+                <NavbarItem>
+                    <Links />
+                </NavbarItem>
             </NavbarContent>
 
             <NavbarContent justify="end" className="flex">
@@ -83,6 +88,9 @@ const Header = () => {
                         </Link>
                     </NavbarMenuItem>
                 ))}
+                <NavbarMenuItem>
+                    <Links />
+                </NavbarMenuItem>
             </NavbarMenu>
         </Navbar>
     );
