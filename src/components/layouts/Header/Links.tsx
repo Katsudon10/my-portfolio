@@ -27,7 +27,7 @@ const Links = () => {
     return (
         <Dropdown>
             <DropdownTrigger>
-                <Button color="default" endContent={<FaChevronDown />}>
+                <Button disableRipple color="default" endContent={<FaChevronDown />}>
                     Links
                 </Button>
             </DropdownTrigger>
