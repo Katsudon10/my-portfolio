@@ -23,6 +23,7 @@ const Links = () => {
         {name:"Qiita", path: "https://qiita.com/katsudon_qiita", icon: <SiQiita size={20} color="foreground"/>},
         {name:"Zenn", path: "https://zenn.dev/katsudon_zenn", icon: <SiZenn size={20} color="foreground"/>},
         {name:"X", path: "https://twitter.com/katsudon_pro", icon: <SiX size={20} color="foreground"/>},
+        {name:"AtCoder", path: "https://atcoder.jp/users/katsudon_"},
     ];
     return (
         <Dropdown>
