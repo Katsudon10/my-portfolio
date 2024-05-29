@@ -1,8 +1,8 @@
 const Footer = () => {
     return (
-        <div>
-            <h1>Footer</h1>
-        </div>
+        <footer className="border-t flex justify-center">
+            <p>&copy; 2024 Kaito Inoue. All rights reserved.</p>
+        </footer>
     );
 };
 
