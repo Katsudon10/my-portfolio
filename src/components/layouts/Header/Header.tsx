@@ -36,7 +36,6 @@ const Header = () => {
                     />
                 </NavbarContent>
                 
-
                 <NavbarContent className="hidden sm:flex gap-5">
                     <NavbarItem>
                         <Link href="/" color="foreground">

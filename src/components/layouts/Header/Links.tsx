@@ -26,16 +26,16 @@ const Links = () => {
         {name:"AtCoder", path: "https://atcoder.jp/users/katsudon_"},
     ];
     return (
-        <Dropdown>
+        <Dropdown className="bg-stone-800 rounded-lg">
             <DropdownTrigger>
-                <Button disableRipple color="default" endContent={<FaChevronDown />}>
+                <Button className="p-0 -ml-2" variant="bordered" disableRipple color="default" endContent={<FaChevronDown />}>
                     Links
                 </Button>
             </DropdownTrigger>
-            <DropdownMenu>
-                {links.map((link, index) => (
-                    <DropdownItem key={index} startContent={link.icon}>
-                        <Link href={link.path} color="foreground" isExternal>
+            <DropdownMenu aria-label="Static Actions" className="p-3">
+                {links.map((link) => (
+                    <DropdownItem key={link.name} startContent={link.icon}>
+                        <Link href={link.path} color="foreground" isExternal className="container py-auto">
                             {link.name}
                         </Link>
                     </DropdownItem>
