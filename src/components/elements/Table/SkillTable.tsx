@@ -22,7 +22,7 @@ type Skills = {
 
 const SkillTable = ({name,skills}:Skills) => {
     return (
-        <div className="container w-96">  
+        <div className="w-96">  
             <h2 className="text-center">{name}</h2>
             <Table aria-label="skill table" className="border">
                 <TableHeader>
